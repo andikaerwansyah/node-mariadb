@@ -1,2 +1,10 @@
 Tutorial
 https://hackernoon.com/setting-up-node-js-with-a-database-part-1-3f2461bdd77f
+
+jika Error
+update user set authentication_string=password(''), plugin='mysql_native_password' where user='root';
+lakukan :
+1. akses bash dengan sudo su 
+2. mysql -u root -p
+3. use mysql 
+4. update user set authentication_string=password(''), plugin='mysql_native_password' where user='root';
