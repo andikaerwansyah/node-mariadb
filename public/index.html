@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/bulma.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Node MariaDB Tutorial</title>
+  <style>
+  .mt2{
+    margin-top: 10px;
+  }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Node-Mariadb-Bulma Project
+          </h1>
+          <h2 class="subtitle">
+            Author : Andika Erwansyah
+          </h2>
+        </div>
+      </div>
+    </section>
+    <div class="box">
     <form class="CreateUser">
       <h1>Create a new user</h1>
-      <input type="text" class="username" placeholder="Username">
-      <input type="password" class="password" placeholder="Password">
-      <input type="submit" value="Create User">
+      <input class="mt2 input" type="text" id="username" placeholder="Username">
+      <input class="mt2 input" type="password" id="password" placeholder="Password">
+      <input class="mt2 button is-success" type="submit" value="Create User">
     </form>
+    </div>
+  </div>
     <script src="/app.js"></script>
 </body>
 </html>
